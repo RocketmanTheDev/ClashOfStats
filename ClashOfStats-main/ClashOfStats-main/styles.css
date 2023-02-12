@@ -1,0 +1,160 @@
+body{
+    background-color: #222;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    justify-content: space-between;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.header__title {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header__nav-item {
+    margin-right: 20px;
+}
+
+.header__nav-item a {
+    color: #fff;
+    text-decoration: none;
+}
+.header__button{
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: transform 0.2s;
+    color: black;
+}
+.header__button:hover{
+    background-color: deepskyblue;
+    transform: scale(1.1);
+}
+.header__button:active{
+    background-color: gray;
+    transform: translate(0px);
+}
+.header__login-button{
+    color: aliceblue;
+}
+
+.about-section {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 34px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  form {
+    margin-top: 50px;
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    padding-right: 40px;
+  }
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    display: block;
+  }
+
+input[type="text"],
+input[type="password"] {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+input[type="submit"] {
+    background-color: lightblue;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+input[type="submit"]:hover{
+    background-color: deepskyblue;
+    transform: scale(1.1);
+}
+input[type="submit"]:active{
+    background-color: gray;
+    transform: translate(0px);
+}
+.centerbox{
+    display: block;
+    background-color: #333;
+    align-content: center;
+    width: auto;
+    margin: 0 6%;
+    padding: 0 6%;
+    border-radius: 6px;
+}
+.centerbox p,h,h1,h2{
+    color: white;
+    
+}
+.boxheader{
+    margin: 10px;
+    text-align: center;
+}
+.boxcontents{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    
+}
+.boxlist{
+    align-items: center;
+    align-self: center;
+    padding: 20px;
+    display: block;
+    
+}
+.smallbox{
+    margin: 10px 20px;
+    width: 44%;
+    display: inline-flex;
+    text-align: center;
+}
